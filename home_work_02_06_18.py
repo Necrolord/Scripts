@@ -1,4 +1,14 @@
 #!/usr/bin/env python36
+############################
+# Author : Andrey Stepansky
+# Comment: Home Work
+# Date: 02.06.2018
+# ex 1
+############################
+
+import functools
+arr=range(1,11)
+num=5
 
 def func_1(arr_list,num_integer):
     print (functools.reduce(lambda x, y: x + y, arr_list))
@@ -6,15 +16,6 @@ def func_1(arr_list,num_integer):
         return True
     else:
         return False
-############################
-# Author : Andrey Stepansky
-# Comment: Home Work
-# Date: 02.06.2018
-# ex1
-############################
-import functools
-arr=range(1,11)
-num=5
 func_1(arr,num)
 
 ############################
