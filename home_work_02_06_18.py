@@ -66,4 +66,3 @@ def func_2(x,y):
         return y
 map(func_2,var1,var2)
 map(func_2,var3,var4)
-print (var1,var2,var3,var4)
